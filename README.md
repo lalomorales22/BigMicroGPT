@@ -1,8 +1,10 @@
 # BigMicroGPT
 
-a fully local AI workstation with an IDE-style interface. persistent vector memory with temporal decay RAG, web search, image generation, and streaming chat — all running through Ollama. single-file Python app, zero cloud, zero API costs.
+a fully local AI workstation with an IDE-style interface. persistent vector memory with temporal decay RAG, web search, image generation, and streaming chat — all running through Ollama. single-file Python app, zero cloud, zero API costs.  This started from Andrej Karpathy's microGPT python file. 
 
 built by [@lalomorales22](https://github.com/lalomorales22)
+<img width="1249" height="814" alt="Screenshot 2026-02-27 at 12 21 31 PM" src="https://github.com/user-attachments/assets/437f91f5-106c-4a94-b7f3-9c5aeab96ff5" />
+
 
 ---
 
