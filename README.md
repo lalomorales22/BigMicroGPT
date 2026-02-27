@@ -29,23 +29,23 @@ the interface is modeled after an IDE/workstation layout:
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│  ● ● ●  MICRO GPT 2.0 — LOCAL AI WORKSTATION   [model ▾] [SEARCH]  │
+│  ● ● ●  MICRO GPT 2.0 — LOCAL AI WORKSTATION   [model ▾] [SEARCH]    │
 ├──────────┬───────────────────────────────┬───────────────────────────┤
-│          │  CHAT_TERMINAL.gpt       ● ● │  SYSTEM_STATUS       ● ● │
-│ SESSION  │                               │  ● Ollama: Connected     │
-│ EXPLORER │  streaming chat with          │  ● Model: gpt-oss:20b    │
-│          │  markdown rendering           │  ● Search: ON            │
+│          │  CHAT_TERMINAL.gpt        ● ● │  SYSTEM_STATUS        ● ● │
+│ SESSION  │                               │  ● Ollama: Connected      │
+│ EXPLORER │  streaming chat with          │  ● Model: gpt-oss:20b     │
+│          │  markdown rendering           │  ● Search: ON             │
 │ .db      │                               ├───────────────────────────┤
-│          │                               │  MEMORY_BANK.vec    ● ● │
-│ ▸ Chat 1 │                               │  Messages: 128           │
-│ ▸ Chat 2 │                               │  Vectorized: 98          │
-│ ▸ Chat 3 ├───────────────────────────────┤  ██████████░░ 76%        │
-│          │  IMAGE_LAB.flux          ● ● ├───────────────────────────┤
-│ msgs: 42 │                               │  RAG_CONTEXT        ● ● │
-│ vecs: 38 │  [generated image]            │  [0.89] what about...    │
-│ sess: 5  │  [prompt] [GENERATE ⚡]       │  [0.72] remember when... │
+│          │                               │  MEMORY_BANK.vec      ● ● │
+│ ▸ Chat 1 │                               │  Messages: 128            │
+│ ▸ Chat 2 │                               │  Vectorized: 98           │
+│ ▸ Chat 3 ├───────────────────────────────┤  ██████████░░ 76%         │
+│          │  IMAGE_LAB.flux           ● ● ├───────────────────────────┤
+│ msgs: 42 │                               │  RAG_CONTEXT          ● ● │
+│ vecs: 38 │  [generated image]            │  [0.89] what about...     │
+│ sess: 5  │  [prompt] [GENERATE ⚡]        │  [0.72] remember when...  │
 ├──────────┴───────────────────────────────┴───────────────────────────┤
-│  CONSOLE  [14:32:01] System ready ● [14:32:15] RAG: 3 memories     │
+│  CONSOLE  [14:32:01] System ready ● [14:32:15] RAG: 3 memories       │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
